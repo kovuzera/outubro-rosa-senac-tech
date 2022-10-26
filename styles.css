@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --brand-pink: #fa8cb1
+}
+
+.wrapper {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff9fb;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    border-bottom: 2px solid var(--brand-pink);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+header h1 {
+    color: var(--brand-pink);
+}
+
+h2, h1, h3, span {
+    color: var(--brand-pink);
+}
+
+p, li {
+    color: rgb(46, 46, 46);
+}
+
+#home {
+    margin-top: 3rem;
+}
+
+#home .text {
+    width: 45%;
+}
+
+#home .image {
+    width: 60%;
+}
+
+#home h2 {
+    font-size: 2.4rem;
+}
+
+section {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+section img {
+    border-radius: 2rem;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+    gap: 1rem;
+}
+
+.subtitle {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#footer {
+    background-color: var(--brand-pink);
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer h2, #footer p {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#awareness .wrapper, #care .wrapper  {
+    align-items: center;
+    gap: 4rem;
+    display: flex;
+    flex-direction: row;
+}
