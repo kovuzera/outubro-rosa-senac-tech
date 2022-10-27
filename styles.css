@@ -28,6 +28,9 @@ header {
     height: 6rem;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff9fb;
 }
 
 .header-wrapper {
@@ -130,12 +133,15 @@ section div {
         height: 6rem;
         display: flex;
         align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: #fff9fb;
     }
     
     
     header h1 {
         color: var(--brand-pink);
-        font-size: 2rem;
+        font-size: 1.3rem;
         text-align: center;
     }
     
