@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="./styles.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>  
 
     <title>Outubro Rosa | Senac Tech</title>
 </head>
@@ -20,7 +22,7 @@
         </div>
     </header>
 
-    <section id="home" class="wrapper">
+    <section id="home" class="wrapper reveal">
         <div class="text">
             <h2>Conscientização sobre o câncer de mama</h2>
             <p>O Outubro Rosa é celebrado anualmente com o objetivo de compartilhar informações e promover a conscientização sobre a doença. Por isso, nós do <span>Senac Tech</span> decidimos trazer algumas informações úteis para proporcionar maior acesso aos serviços de diagnóstico e de tratamento e contribuir para a redução da mortalidade.</p>
@@ -32,22 +34,24 @@
         </section>
         <div class="wrapper">
 
-            <h2 class="subtitle">O que é o câncer de mama?</h2>
-            <section id="what-is">
+            <h2 class="subtitle reveal">O que é o câncer de mama?</h2>
+            <section id="what-is" class="reveal">
                 <div>
                     <img src="./assets/oquee.jpg" alt="">
                 </div>
                 <div>
-                    É uma doença causada pelo excesso de células anormais da mama, que torna um tumor com capacidade de se expandir para outros órgãos. Por isso, é de suma importância que as mulheres estejam atentas ao seu corpo para se prevenirem dessa doença.
+                    <p>
+                        É uma doença causada pelo excesso de células anormais da mama, que torna um tumor com capacidade de se expandir para outros órgãos. Por isso, é de suma importância que as mulheres estejam atentas ao seu corpo para se prevenirem dessa doença.
+                    </p>
                 </div>
             </div>
         </section>
-        <h2 class="subtitle">Informativo</h2>
-        <section id="awareness">
+        <h2 class="subtitle reveal">Informativo</h2>
+        <section id="awareness" class="reveal">
             <div class="wrapper">
                 <div>
                     <h2>Fatores de Risco</h2>
-                    <ul>
+                    <ul class="reveal">
                         <li>Obesidade e sobrepeso após a menopausa.</li>
                         <li>Sedentarismo</li>
                         <li>Consumo de bebida alcoólica</li>
@@ -66,8 +70,8 @@
                     </ul>
                 </div>
                 <div>
-                    <h3>Principais sinais e sintomas</h3>
-                    <ul>
+                    <h3 class="reveal">Principais sinais e sintomas</h3>
+                    <ul class="reveal">
                         <li>Caroço (nódulo) fixo, endurecido e, geralmente, indolor</li>
                         <li>Pele da mama avermelhada, retraída ou parecida com casca de laranja</li>
                         <li>Alterações no bico do peito (mamilo)</li>
@@ -77,13 +81,13 @@
                 </div>
             </div>
         </section>
-        <h2 class="subtitle">Cuidados a se tomar</h2>
-        <section id="care">
+        <h2 class="subtitle reveal">Cuidados a se tomar</h2>
+        <section id="care" class="reveal">
             <div class="wrapper">
                 <div>
-                    <h2>Autoexame das mamas</h2>
-                    <p>É importante que as mulheres observem suas mamas sempre que se sentirem confortáveis para tal. Seja no banho, no momento da troca de roupa ou em outra situação do cotidiano. Sabia que a maior parte dos cânceres de mama é descoberta pelas próprias mulheres? Sim! E esse autoexame periódico permite que a mulher identifique prematuramente, alterações presentes nas mamas, seja de tamanho ou a aparição de pequenos nódulos (caroços). É bem simples fazer o autoexame:</p>
-                    <ul>
+                    <h2 class="reveal">Autoexame das mamas</h2>
+                    <p class="reveal">É importante que as mulheres observem suas mamas sempre que se sentirem confortáveis para tal. Seja no banho, no momento da troca de roupa ou em outra situação do cotidiano. Sabia que a maior parte dos cânceres de mama é descoberta pelas próprias mulheres? Sim! E esse autoexame periódico permite que a mulher identifique prematuramente, alterações presentes nas mamas, seja de tamanho ou a aparição de pequenos nódulos (caroços). É bem simples fazer o autoexame:</p>
+                    <ul class="reveal">
                         <li>Coloque uma das mãos atrás da cabeça</li>
                         <li>Use os dedos da outra mão para tocar a mama</li>
                         <li>Realize movimentos circulares iniciando no mamilo e estendendo-se até a axila</li>
@@ -91,9 +95,9 @@
                     <p><span><strong>Lembrando: O autoexame não substitui a visita ao médico!</strong></span></p>
                 </div>
                 <div>
-                    <h2>Prevenção</h2>
-                    <p>Cerca de 30% dos casos de câncer de mama podem ser evitados com a adoção de hábitos saudáveis como:</p>
-                    <ul>
+                    <h2 class="reveal">Prevenção</h2>
+                    <p class="reveal">Cerca de 30% dos casos de câncer de mama podem ser evitados com a adoção de hábitos saudáveis como:</p>
+                    <ul class="reveal">
                         <li>Praticar atividade física regularmente</li>
                         <li>Alimentar-se de forma saudável</li>
                         <li>Manter o peso corporal adequado</li>
@@ -110,5 +114,6 @@
                 </p>
             </div>
         </section>
+        <script src="./main.js"></script>
     </body>
 </html>
