@@ -165,27 +165,20 @@ section div {
 }
 
 @media only screen and (max-width: 600px) {
-  .wrapper {
-    width: 80%;
-    margin: 0 auto;
-  }
-
   nav {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .wrapper {
-    width: 80%;
-    margin: 0 auto;
-  }
-
   .header-wrapper {
     display: flex;
     flex-direction: column;
+  }
+
+  .wrapper {
+    width: 80%;
     margin: 0 auto;
-    gap: 1rem;
   }
 
   body {
@@ -198,7 +191,7 @@ section div {
 
   header {
     border-bottom: 2px solid var(--brand-pink);
-    height: 6rem;
+    height: 8rem;
     display: flex;
     align-items: center;
     position: sticky;
@@ -215,12 +208,12 @@ section div {
   }
 
   header button {
-    padding: 0px 3px;
+    padding: 0px 4px;
     border: 1px solid var(--brand-pink);
     border-radius: 4rem;
     color: var(--brand-pink);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: .9rem;
     background-color: transparent;
     transition: 0.2s;
   }
@@ -229,6 +222,11 @@ section div {
     color: var(--brand-pink);
     font-size: 1.3rem;
     text-align: center;
+  }
+
+  .header-wrapper {
+    display: flex;
+    gap: 1rem;
   }
 
   h2,
