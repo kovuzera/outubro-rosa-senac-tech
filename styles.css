@@ -35,9 +35,10 @@ header {
 }
 
 .header-wrapper {
-  display: flex;
-  align-items: center;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
 header ul {
   list-style: none;
